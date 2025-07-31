@@ -1,5 +1,5 @@
-## Prácticas Laborales Formativas | Página de Inicio
+## Prácticas Laborales Formativas | Landing page
 
-![screenshot](https://github.com/user-attachments/assets/5bee3bb7-02ed-44bc-92c5-b9d9a91599b0)
+<img width="1366" height="768" alt="plf-landing" src="https://github.com/user-attachments/assets/0c0112ad-a59c-4978-84f7-900bd8ca3f4d" />
 
-Realizado para el Ministerio de Trabajo, Empleo y Seguridad Social de la Provincia de Santa Fe.
+Trabajo realizado para el Ministerio de Trabajo, Empleo y Seguridad Social de la Provincia de Santa Fe.
