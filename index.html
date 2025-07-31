@@ -7,7 +7,9 @@
     <title>Prácticas Laborales Formativas</title>
     <link rel="icon" href="https://www.santafe.gob.ar/assets/standard/images/favicon.ico">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script type="module" src="./js/main.js" defer></script>
 </head>
 
 <body>
@@ -41,25 +43,58 @@
         </section>
 
 
+
         <section class="accesos">
-            <div class="accesos_card accesos_practicantes">
-                <a href="https://sso.santafe.gov.ar/service-auth/login?service=https%3A%2F%2Fwww.santafe.gob.ar%2Ftrabdigno%2Fmenu-principal"
-                    target="_blank">
-                    <img class="accesos_card_img" src="./assets/practicantes.png" alt="Foto de Practicantes">
-                    <h2 class="accesos_title">Postulantes y beneficiaros</h2>
-                    <!-- <p>Quiero inscribirme en Prácticas</p> -->
-                    <p class="accesos_text">ACCESO CON ID CIUDADANA</p>
-                </a>
+            <h2 class="accesos_title">Accedé al programa</h2>
+
+            <div class="accesos_container">
+
+                <div class="accesos_card accesos_card_practicantes">
+                    <a href="https://sso.santafe.gov.ar/service-auth/login?service=https%3A%2F%2Fwww.santafe.gob.ar%2Ftrabdigno%2Fmenu-principal"
+                        target="_blank">
+                        <img class="accesos_card_img" src="./assets/practicantes.png" alt="Foto de Practicantes">
+                        <h2 class="accesos_card_title">Postulantes y beneficiaros</h2>
+                        <!-- <p>Quiero inscribirme en Prácticas</p> -->
+                        <p class="accesos_card_text">ACCESO CON ID CIUDADANA</p>
+                    </a>
+                </div>
+                <div class="accesos_card accesos_card_instituciones">
+                    <a href="https://auth.afip.gob.ar/contribuyente_/login.xhtml?action=SYSTEM&system=santafe_mtyss_empleo"
+                        target="_blank">
+                        <img class="accesos_card_img" src="./assets/instituciones.png" alt="Foto de Instituciones">
+                        <h2 class="accesos_card_title">Empresas e instituciones</h2>
+                        <!-- <p>Formulación de Proyectos de Prácticas</p> -->
+                        <p class="accesos_card_text">ACCESO CON CLAVE FISCAL</p>
+                    </a>
+                </div>
             </div>
-            <div class="accesos_card accesos_instituciones">
-                <a href="https://auth.afip.gob.ar/contribuyente_/login.xhtml?action=SYSTEM&system=santafe_mtyss_empleo"
-                    target="_blank">
-                    <img class="accesos_card_img" src="./assets/instituciones.png" alt="Foto de Instituciones">
-                    <h2 class="accesos_title">Empresas e instituciones</h2>
-                    <!-- <p>Formulación de Proyectos de Prácticas</p> -->
-                    <p class="accesos_text">ACCESO CON CLAVE FISCAL</p>
-                </a>
+        </section>
+
+        <section class="testimonios">
+            <h2 class="testimonios_title">Conocé las experiencias</h2>
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <!-- Slides (agregás dinámicamente o manual) -->
+                    <div class="swiper-slide">
+                        <!-- contenido de cada card -->
+                    </div>
+                </div>
+
+                <!-- Controles -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
+        </section>
+
+
+        <section class="puestos">
+            <h2 class="puestos_title">Oportunidades de prácticas</h2>
+
+        </section>
+
+        <section class="texto">
+
         </section>
 
     </main>

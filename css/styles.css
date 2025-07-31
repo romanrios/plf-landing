@@ -2,8 +2,11 @@
 @import "reset.css";
 @import "variables.css";
 @import "nav.css";
+/* @import "info.css"; */
 @import "hero.css";
+@import "testimonios.css";
 @import "accesos.css";
+@import "puestos.css";
 @import "footer.css";
 
 body {
@@ -21,32 +24,6 @@ main {
     align-items: center;
 }
 
-.info {
-    display: flex;
-    padding: 0 40px;
-    justify-content: center;
-
-}
-
-.info_container {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    max-width: 1080px;
-}
-
-.info_link {
-    margin-right: auto;
-    color: var(--grey);
-    margin-top: 15px;
-    font-size: small;
-    max-width: 1080px;
-}
-
-.info_link:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
 
 
 
