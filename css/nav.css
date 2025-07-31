@@ -1,0 +1,32 @@
+/* ----- nav ----- */
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 30px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.nav_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1080px;
+}
+
+.nav_logo_plf {
+    min-height: 30px;
+    max-height: 40px;
+}
+
+.nav_logo_sf {
+    margin-left: auto;
+    min-height: 20px;
+    max-height: 30px;
+}
+
+.gradient {
+    min-height: 3px;
+    background: linear-gradient(90deg, #ffcb02, #ff7402, #ff6d7e, #e42153, #3c3ae5);
+}
