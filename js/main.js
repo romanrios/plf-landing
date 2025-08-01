@@ -10,14 +10,23 @@ window.addEventListener('scroll', () => {
 });
 
 
+// Carrusel Testimonios - Swiper
+const container = document.querySelector('.swiper-wrapper');
 
+testimonios.forEach(t => {
+  container.insertAdjacentHTML('beforeend', `
+    <div class="swiper-slide">
+      <div class="testimonios_card">
+        <img src="${t.imagen}" alt="${t.nombre}" class="testimonios_img" />
+        <p class="testimonios_texto">"${t.mensaje}"</p>
+        <p class="testimonios_nombre">${t.nombre} - ${t.puesto}</p>
+        <p class="testimonios_institucion">${t.empresa}</p>
+      </div>
+    </div>
+  `);
+});
 
-
-// Carrusel Testimonios
-
-
-
-const swiper = new Swiper('.swiper', {
+new Swiper('.swiper', {
   loop: true,
   autoplay: {
     delay: 5000,
@@ -28,7 +37,7 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.swiper-button-prev',
   },
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 10,
   breakpoints: {
     768: {
       slidesPerView: 2,
@@ -37,18 +46,4 @@ const swiper = new Swiper('.swiper', {
       slidesPerView: 3,
     }
   }
-});
-
-const container = document.querySelector('.swiper-wrapper');
-testimonios.forEach(t => {
-  container.innerHTML += `
-    <div class="swiper-slide">
-      <div class="testimonios_card">
-        <img src="${t.imagen}" alt="${t.nombre}" class="testimonios_img" />
-        <p class="testimonios_texto">"${t.mensaje}"</p>
-        <p class="testimonios_nombre">${t.nombre} - ${t.puesto}</p>
-        <p class="testimonios_institucion">${t.empresa}</p>
-      </div>
-    </div>
-  `;
 });

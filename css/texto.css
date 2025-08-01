@@ -1,0 +1,36 @@
+.texto {
+    padding: 40px 20px;
+}
+
+.texto p,
+.texto li {
+    color: #666;
+}
+
+.texto li {
+    list-style: circle;
+}
+
+.texto_container {
+    max-width: 650px;
+}
+
+.texto_container_programa,
+.texto_container_requisitos {
+    max-width: 500px;
+}
+
+.texto h3,
+.texto h4 {
+    margin: 10px 0 10px 0;
+}
+
+.texto p {
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+.texto li {
+    margin: 10px 0 0 20px;
+    line-height: 1.5;
+}

@@ -1,6 +1,13 @@
+.puestos{
+padding: 80px 0;
+background-color: #F0F0F0;
+width: 100%;
+}
+
 .puestos_title {
     color: var(--grey);
-    font-weight: 800;
+    font-weight: bold;
     font-size: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
