@@ -4,15 +4,26 @@ nav {
     display: flex;
     justify-content: center;
     padding: 30px 40px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     z-index: 10;
 }
 
 .nav_container {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     width: 100%;
     max-width: 1080px;
+}
+
+.nav_container div {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav_container div a {
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 .nav_logo_plf {
