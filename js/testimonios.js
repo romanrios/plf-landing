@@ -10,7 +10,7 @@ export const testimonios = [
     nombre: 'María',
     puesto: 'Atención al cliente',
     empresa: 'Supermercados La Reina',
-    mensaje: 'Trabajar con un equipo real me dio confianza y motivación.',
+    mensaje: 'Trabajar con un equipo real me dio confianza y motivación',
     imagen: './assets/testimonios_02.png'
   },
   {
@@ -24,7 +24,7 @@ export const testimonios = [
     nombre: 'Lucía',
     puesto: 'Diseñadora gráfica',
     empresa: 'DonWeb',
-    mensaje: 'Fue una experiencia enriquecedora que me preparó para el mundo laboral.',
+    mensaje: 'Fue una experiencia enriquecedora que me preparó para el mundo laboral',
     imagen: './assets/testimonios_04.png'
   }
 ];
