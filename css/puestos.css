@@ -1,7 +1,11 @@
-.puestos{
-padding: 80px 0;
-background-color: #e0e0e0;
-width: 100%;
+.puestos {
+    padding: 80px 0;
+    background-color: #e0e0e0;
+    width: 100%;
+}
+
+.swiper_puestos {
+    max-width: 1080px;
 }
 
 .puestos_title {
@@ -10,4 +14,56 @@ width: 100%;
     font-size: 2rem;
     margin-bottom: 2rem;
     text-align: center;
+}
+
+.puestos_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    min-height: 180px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.13);
+    margin: 7px;
+    margin-bottom: 40px;
+}
+
+.puestos_localidad {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666;
+}
+
+.puestos_puesto {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.puestos_empresa {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+
+
+/* Espacio debajo del carrusel */
+.swiper-pagination_puestos {
+  margin-top: 200px; /* ajustá según lo que necesites */
+  text-align: center;
+}
+
+/* Estilo de los puntitos */
+.swiper-pagination_puestos .swiper-pagination-bullet {
+  background-color: #666; /* color base */
+  opacity: 1;              /* asegurate de que no se vea gris por opacidad */
+  margin: 0 4px;
+  width: 10px;
+  height: 10px;
+}
+
+/* Puntito activo (resaltado) */
+.swiper-pagination_puestos .swiper-pagination-bullet-active {
+  background-color: #FF7402;
 }

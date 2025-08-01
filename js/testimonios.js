@@ -23,7 +23,7 @@ export const testimonios = [
   {
     nombre: 'Lucía',
     puesto: 'Diseñadora gráfica',
-    empresa: 'Estudio Creativo Prisma',
+    empresa: 'DonWeb',
     mensaje: 'Fue una experiencia enriquecedora que me preparó para el mundo laboral.',
     imagen: './assets/testimonios_04.png'
   }
