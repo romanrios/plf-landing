@@ -11,7 +11,7 @@ export const puestos = [
     },
     {
         puesto: 'Auxiliar administrativo',
-        localidad: 'Gálvez',
+        localidad: 'Santo Tomé',
         empresa: "Open Candy"
     },
     {
