@@ -27,8 +27,11 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, #ffcb02, #ff7402, #ff6d7e, #e42153, #3c3ae5);
-  opacity: 0.5;
+  /* background: linear-gradient(90deg, #ffcb02, #ff7402, #ff6d7e, #e42153, #3c3ae5); */
+  background-color: black;
+  /* opacity: 0.5; */
+    opacity: 0.1;
+
   z-index: 1;
 }
 
@@ -38,9 +41,9 @@
   z-index: 2;
   color: white;
   font-weight: 900;
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(2.5rem, 5vw, 6rem);
   margin: 0 3rem;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
   line-height: 0.9;
 }
 

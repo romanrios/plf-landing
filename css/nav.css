@@ -16,12 +16,12 @@ nav {
 }
 
 .nav_logo_plf {
+    margin-left: auto;
     min-height: 30px;
     max-height: 40px;
 }
 
 .nav_logo_sf {
-    margin-left: auto;
     min-height: 20px;
     max-height: 30px;
 }

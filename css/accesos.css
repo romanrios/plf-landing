@@ -52,13 +52,16 @@
     background: linear-gradient(90deg, #ff7402, #e42153, #3c3ae5);
 }
 
-.accesos_card_title {
-    font-size: 1.2rem;
+.accesos_card_text {
+    font-size: medium;
     margin-top: 1rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.5rem;
 }
 
-.accesos_card_text {
-    font-size: small;
-    margin-bottom: 25px;
+.accesos_card_title {
+        margin-top: 1.5rem;
+
+    font-size: 1.3rem;
+    margin-bottom: 1.8rem;
 }
+
