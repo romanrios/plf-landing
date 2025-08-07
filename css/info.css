@@ -1,4 +1,4 @@
-.info {
+/* .info {
     display: flex;
     padding: 0 40px;
     justify-content: center;
@@ -14,7 +14,7 @@
 
 .info_link {
     margin-right: auto;
-    color: var(--grey);
+    color: var(--gray);
     margin-top: 15px;
     font-size: small;
     max-width: 1080px;
@@ -23,4 +23,4 @@
 .info_link:hover {
     cursor: pointer;
     text-decoration: underline;
-}
+} */

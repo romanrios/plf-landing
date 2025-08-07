@@ -12,7 +12,7 @@
 .testimonios_title {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: var(--grey);
+  color: var(--gray);
   font-weight: bold;
 }
 
@@ -43,7 +43,7 @@
 
 .testimonios_nombre {
   font-weight: bold;
-  color: var(--grey);
+  color: var(--gray);
   margin-bottom: 0.3rem;
 }
 
@@ -55,7 +55,7 @@
 /* Flechas generales */
 
 .custom-arrow {
-  color: var(--grey) !important;
+  color: var(--gray) !important;
   scale: 0.6;
   opacity: 0.5;
 }

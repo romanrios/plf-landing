@@ -4,11 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: #F0F0F0;
 }
 
 .accesos_title {
-    color: var(--grey);
+    color: var(--gray);
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -47,11 +47,11 @@
 }
 
 .accesos_card_practicantes {
-    background: linear-gradient(90deg, #ffcb02, #ff7402, #e42153);
+    background: linear-gradient(90deg, var(--yellow), var(--orange), var(--red));
 }
 
 .accesos_card_instituciones {
-    background: linear-gradient(90deg, #ff7402, #e42153, #3c3ae5);
+    background: linear-gradient(90deg, var(--orange),var(--red), var(--blue));
 }
 
 .accesos_card_text {

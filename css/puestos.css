@@ -9,7 +9,7 @@
 }
 
 .puestos_title {
-    color: var(--grey);
+    color: var(--gray);
     font-weight: bold;
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -50,14 +50,14 @@
 
 /* Espacio debajo del carrusel */
 .swiper-pagination_puestos {
-  margin-top: 200px; /* ajustá según lo que necesites */
+  margin-top: 200px;
   text-align: center;
 }
 
 /* Estilo de los puntitos */
 .swiper-pagination_puestos .swiper-pagination-bullet {
   background-color: #666; /* color base */
-  opacity: 1;              /* asegurate de que no se vea gris por opacidad */
+  opacity: 1; 
   margin: 0 4px;
   width: 10px;
   height: 10px;

@@ -4,7 +4,7 @@ footer {
     flex-direction: column;
     min-height: 100px;
     align-items: center;
-    background: var(--grey);
+    background: var(--gray);
     margin-top: auto;
 }
 
@@ -46,6 +46,7 @@ footer p {
     font-size: 12px;
     color: white;
     min-width: 300px;
+    text-wrap: balance;
 }
 
 .footer_bottom {
@@ -83,4 +84,28 @@ footer p {
     font-size: small;
     color: white;
     opacity: 0.5;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 700px) {
+
+    footer p {
+        text-align: center;
+    }
+
+    .footer_top {
+        padding: 35px 0;
+        flex-direction: column;
+    }
+
+    .footer_bottom_container {
+        padding: 15px 0px;
+        justify-content: center;
+    }
+
+    .footer_bottom ul {
+        margin: 0 auto;
+    }
 }

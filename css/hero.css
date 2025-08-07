@@ -22,21 +22,17 @@
   will-change: transform;
 }
 
-/* Overlay degradado */
+/* Overlay negro */
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  /* background: linear-gradient(90deg, #ffcb02, #ff7402, #ff6d7e, #e42153, #3c3ae5); */
   background-color: black;
-  /* opacity: 0.5; */
-    opacity: 0.1;
-
+  opacity: 0.1;
   z-index: 1;
 }
 
-/* Prácticas Laborales Formativas */
-.hero p {
+.hero_title {
   position: relative;
   z-index: 2;
   color: white;
@@ -47,13 +43,18 @@
   line-height: 0.9;
 }
 
-/* Desarrollá tus habilidades en el mundo real */
-.hero p:nth-of-type(2) {
-  background: linear-gradient(90deg, #ffcb02, #ff7402, #ff6d7e, #e42153, #3c3ae5);
-  font-weight: 600;
-  padding: 0.3em 0.8em;
+.hero_text {
+  display: inline-block;
+  color: white;
+  background: linear-gradient(120deg, var(--yellow), var(--orange), var(--red), var(--blue));
+  border-radius: 5px;
+  padding: 0.1em 0.4em;
   font-size: clamp(1rem, 1.7vw, 2.5rem);
+  font-weight: 500;
+  text-align: center;
   text-wrap: balance;
   margin-top: 1rem;
-  max-width: max-content;
+  z-index: 1;
+  max-width: 75%;
+  line-height: 1.1;
 }

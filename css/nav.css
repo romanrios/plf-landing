@@ -21,7 +21,7 @@ nav {
     align-items: center;
 }
 
-.nav_container div a {
+.nav_link {
     font-size: 0.9rem;
     font-weight: 500;
 }
@@ -37,7 +37,21 @@ nav {
     max-height: 30px;
 }
 
-.gradient {
+/* .gradient {
     min-height: 3px;
     background: linear-gradient(90deg, #ffcb02, #ff7402, #ff6d7e, #e42153, #3c3ae5);
+} */
+
+@media (max-width: 450px) {
+
+    .nav_container div {
+        gap: 1rem;
+        align-items: right;
+    }
+
+    .nav_link {
+        font-size: 0.8rem;
+        max-width: 4rem;
+    }
+
 }
